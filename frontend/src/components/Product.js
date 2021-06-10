@@ -21,7 +21,7 @@ function Product({product}) {
 
                 <Card.Text as="div">
                     <div className="my-3">
-                        <Rating product={product}/>
+                        <Rating value={product.rating} text={`${product.numReviews}`} color={'#f8e825'}/>
                     </div>
                 </Card.Text>
 
